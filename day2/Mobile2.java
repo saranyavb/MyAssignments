@@ -6,6 +6,6 @@ public class Mobile2 {
 		Mobile alternate = new Mobile();
 		alternate.sendSms();
 		long makeCall = alternate.makeCall(9876547656l);
-				System.out.println(makeCall);
+		System.out.println(makeCall);
 	}
 }
